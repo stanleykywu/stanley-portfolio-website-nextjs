@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    line-height: 1.7;
+}
+
+.text__light {
+    padding: 0px;
+    margin-top: 0px;
+    color: #797c81;
+}
+
+.text__light__top {
+    margin-top: 100px;
+    color: #797c81;
+}
+
+.text__light__only {
+    margin-top: 5px;
+    color: #797c81;
+}
+
+.text__darker {
+    margin-top: 5px;
+    color: black
+}
+
+.white__color {
+    color: #fff
+}
+
+.slight__arxivhover:hover {
+    background-color: #b31a1aca !important;
+}
+
+.slight__githubhover:hover {
+    background-color: #ffe3d2 !important;
+}
+
+.slight__hover:hover {
+    background-color: #E5EDF1 !important;
+    color: #002647 !important
+}
+
+.white__hover:hover {
+    background-color: transparent !important;
+}
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 86%;
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    section > h2{
+        margin-bottom: 2rem;
+    }
+}
