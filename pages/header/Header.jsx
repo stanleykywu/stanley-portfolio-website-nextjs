@@ -105,7 +105,7 @@ const Header = () => {
           <p>
             I received my bachelors in computer science from Northeastern University, during which I was very fortunate to work with <a href='https://www.ccs.neu.edu/home/alina/' target="_blank" rel="noreferrer" style={{textDecoration: 'underline', color: 'black'}}>Alina Oprea</a>, and <a href='https://jonathan-ullman.github.io/' target="_blank" rel="noreferrer" style={{textDecoration: 'underline', color: 'black'}}>Jonathan Ullman</a>. I have held several industry positions in the past, mainly in software engineering and data science. Recently, I was a data scientist at <a href='https://www.klaviyo.com/' target="_blank" rel="noreferrer" style={{textDecoration: 'underline', color: 'black'}}>Klaviyo</a> and <a href='https://www.proofpoint.com/us' target="_blank" rel="noreferrer" style={{textDecoration: 'underline', color: 'black'}}>Proofpoint</a>.
           </p>  
-          <p><b>Email:</b> stanleywu AT cs DOT uchicago DOT edu</p>
+          <p><b>Email:</b> stanleywu+w AT cs DOT uchicago DOT edu</p>
         </Grid>
       </Grid>
     </Container>
