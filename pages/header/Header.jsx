@@ -34,7 +34,7 @@ const Header = () => {
                   Chicago, IL
                 </ListItem>
                 <ListItem>
-                  <a href='mailto: stanleykywu@gmail.com' target="_blank" rel="noreferrer" style={{textDecoration: 'underline', color: 'black'}}>
+                  <a href='mailto: stanleykywu+w@gmail.com' target="_blank" rel="noreferrer" style={{textDecoration: 'underline', color: 'black'}}>
                     <i style={{ marginRight: "5px"}}>
                       <FontAwesomeIcon icon={faEnvelope} style={{ color: "#adc3ef"}}></FontAwesomeIcon>
                     </i>
