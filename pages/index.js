@@ -36,7 +36,7 @@ function Home () {
             <ThemeProvider theme={theme}>
                 <link
                 rel="canonical"
-                href="https://stanleywu.me"
+                href="https://stanley-wu.com"
                 key="canonical"
                 />
                 <CssBaseline />
