@@ -28,7 +28,7 @@ function Home () {
         <>
             <Head>
                 <title>Stanley Wu</title>
-                <meta name="description" content='I am a 1st-year PhD student at the University of Chicago SAND Lab, co-advised by Professor Ben Y. Zhao and Professor Heather Zheng.'/>
+                <meta name="description" content='I am a 1st-year PhD student at the University of Chicago SAND Lab, co-advised by Professor Ben Y. Zhao and Professor Heather Zheng.'/>  
                 <meta charset="UTF-8"/>
                 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>

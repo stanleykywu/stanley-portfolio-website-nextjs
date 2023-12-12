@@ -1,13 +1,11 @@
 import React from 'react'
 import CTA from './cta/CTA'
 import { Container, Grid, Avatar, ListItem, List } from '@mui/material'
-// import ME from '../../public/static/me.webp'
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub, faGoodreads, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faLocationDot, faEnvelope, faGraduationCap, faFilePdf } from '@fortawesome/free-solid-svg-icons'
-// import RESUME from '../../public/static/resume.pdf'
 
 const Header = () => {
   const theme = useTheme();
