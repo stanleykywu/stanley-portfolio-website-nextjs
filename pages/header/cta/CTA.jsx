@@ -3,7 +3,7 @@ import React from 'react'
 
 const CTA = () => {
   return (
-    <Box bgcolor="#E5EDF1" sx={{ borderRadius: '16px', margin: '21px', padding: '5px' }}>
+    <Box bgcolor="#E5EDF1" sx={{ borderRadius: '16px', margin: '21px', marginTop: '35px', padding: '5px' }}>
       <h3 style={{ paddingBottom: "0px", marginBottom: "0px" }}><b>FRESH OFF THE PRESS</b></h3>
       <List>
         <ListItem sx={{ display: 'list-item', pl: 4 }}><b>Aug, 2023:</b>  Joined SAND Lab</ListItem>
