@@ -13,7 +13,7 @@ const Header = () => {
           </Box>
           <Button href="." style={{ color:"black" }}>Home</Button>
           <Button href="/static/resume.pdf" locale={false}  target="_blank" style={{ color:"black" }}>CV</Button>
-          <Button href="/history" style={{ color: "black" }}>Past News</Button>
+          <Button href="/past-news" style={{ color: "black" }}>Past News</Button>
         </Toolbar>
       </AppBar>
     </>
