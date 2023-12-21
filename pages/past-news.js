@@ -44,7 +44,7 @@ export default function About() {
                 <Grid item xs={2} md={1} justifyContent="left">
                     <strong>2023</strong>
                 </Grid>
-                <Grid item xs={10} md={11} style={{ marginBottom: "20px"}}>
+                <Grid item xs={10} md={11}>
                     <div>
                     <strong>December<br/>
                     </strong><a href='https://arxiv.org/abs/2312.07731' target="_blank" rel="noreferrer" style={{textDecoration: 'underline', color: 'black'}}>Response</a> to the IMPRESS paper on weakening Glaze<br/>
@@ -53,6 +53,7 @@ export default function About() {
                     </div>
                 </Grid>
                 </Grid>
+                <br></br>
                 <Grid container display={(isMobile) ? 'block' : 'flex'} direction={(isMobile) ? 'column' : "row"} justifyContent="center">
                 <Grid item xs={2} md={1} justifyContent="left"/>
                 <Grid item xs={10} md={11}>
