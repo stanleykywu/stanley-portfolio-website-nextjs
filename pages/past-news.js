@@ -47,12 +47,24 @@ export default function About() {
                 <Grid item xs={10} md={11} style={{ marginBottom: "20px"}}>
                     <div>
                     <strong>December<br/>
-                    </strong>...<br/>
+                    </strong><a href='https://arxiv.org/abs/2312.07731' target="_blank" rel="noreferrer" style={{textDecoration: 'underline', color: 'black'}}>Response</a> to the IMPRESS paper on weakening Glaze<br/>
                     <div style={{display: "flex", flexDirection: "row", alignItems: "center"}}>
                     </div>
                     </div>
                 </Grid>
                 </Grid>
+                <Grid container display={(isMobile) ? 'block' : 'flex'} direction={(isMobile) ? 'column' : "row"} justifyContent="center">
+                <Grid item xs={2} md={1} justifyContent="left"/>
+                <Grid item xs={10} md={11}>
+                    <div>
+                    <strong>October<br/>
+                    </strong>Nightshade project is covered in the <a href='https://www.technologyreview.com/2023/10/23/1082189/data-poisoning-artists-fight-generative-ai/' target="_blank" rel="noreferrer" style={{textDecoration: 'underline', color: 'black'}}>MIT Tech Review</a><br/>
+                    <div style={{display: "flex", flexDirection: "row", alignItems: "center"}}>
+                    </div>
+                    </div>
+                </Grid>
+                </Grid>
+                <br></br>
                 <Grid container display={(isMobile) ? 'block' : 'flex'} direction={(isMobile) ? 'column' : "row"} justifyContent="center">
                 <Grid item xs={2} md={1} justifyContent="left"/>
                 <Grid item xs={10} md={11}>
