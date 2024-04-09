@@ -12,7 +12,7 @@ const Header = () => {
               {/* whatever is on the left side */}
           </Box>
           <Button href="." style={{ color:"black" }}>Home</Button>
-          <Button href="/static/resume.pdf" locale={false}  target="_blank" style={{ color:"black" }}>CV</Button>
+          <Button href="/static/cv.pdf" locale={false}  target="_blank" style={{ color:"black" }}>CV</Button>
           <Button href="/past-news" style={{ color: "black" }}>Past News</Button>
         </Toolbar>
       </AppBar>

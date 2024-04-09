@@ -40,7 +40,7 @@ const Header = () => {
                   </a>
                 </ListItem>
                 <ListItem>
-                  <a href="/static/resume.pdf" locale={false} target="_blank" rel="noreferrer" style={{textDecoration: 'underline', color: 'black'}}>
+                  <a href="/static/cv.pdf" locale={false} target="_blank" rel="noreferrer" style={{textDecoration: 'underline', color: 'black'}}>
                     <i style={{ marginRight: "5px"}}>
                       <FontAwesomeIcon icon={faFilePdf} style={{ color: "#adc3ef"}}></FontAwesomeIcon>
                     </i>
