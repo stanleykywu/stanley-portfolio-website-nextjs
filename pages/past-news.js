@@ -42,6 +42,20 @@ export default function About() {
             <Container align="left" style={{ padding: 0 }}>
                 <Grid container display={(isMobile) ? 'block' : 'flex'} direction={(isMobile) ? 'column' : "row"} justifyContent="center">
                 <Grid item xs={2} md={1} justifyContent="left">
+                    <strong>2024</strong>
+                </Grid>
+                <Grid item xs={10} md={11} style={{ marginBottom: "20px"}}>
+                    <div>
+                    <strong>April<br/>
+                    </strong>Received the National Science Foundation Graduate Research Fellowship Award (NSF GRFP)<br/>
+                    <div style={{display: "flex", flexDirection: "row", alignItems: "center"}}>
+                    </div>
+                    </div>
+                </Grid>
+                </Grid>
+                <br></br>
+                <Grid container display={(isMobile) ? 'block' : 'flex'} direction={(isMobile) ? 'column' : "row"} justifyContent="center">
+                <Grid item xs={2} md={1} justifyContent="left">
                     <strong>2023</strong>
                 </Grid>
                 <Grid item xs={10} md={11}>
