@@ -37,6 +37,18 @@ body {
     color: #fff
 }
 
+.slight__webpagehover:hover {
+    background-color: #E5EDF1 !important;
+}
+
+.slight__pdfhover:hover {
+    background-color: #7a7a7aca !important;
+}
+
+.slight__videohover:hover {
+    background-color: #242424ca !important;
+}
+
 .slight__arxivhover:hover {
     background-color: #b31a1aca !important;
 }
