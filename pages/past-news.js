@@ -14,7 +14,7 @@ const theme = createTheme({
       },
     },
     typography: {
-      fontFamily: 'Montserrat',
+      fontFamily: 'Poppins',
       fontWeightLight: 200,
       fontWeightRegular: 300,
       fontWeightMedium: 400,
