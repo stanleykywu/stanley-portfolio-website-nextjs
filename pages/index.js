@@ -3,6 +3,7 @@ import Header from './header/Header'
 import Head from 'next/head';
 import Research from './research/Research'
 import CssBaseline from "@mui/material/CssBaseline";
+import InteractiveButton from './components/interactive-button';
 import { createTheme, ThemeProvider } from '@mui/material/styles'
 
 const theme = createTheme({
@@ -42,6 +43,7 @@ function Home () {
                 <CssBaseline />
                 <Header />
                 <Research />
+                <InteractiveButton />
             </ThemeProvider>
         </>
     )

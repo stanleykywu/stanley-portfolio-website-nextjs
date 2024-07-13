@@ -66,6 +66,23 @@ body {
     background-color: transparent !important;
 }
 
+#contact-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #adc3ef;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+    z-index: 1000;
+}
+#contact-button:hover {
+    background-color: #adc3ef;
+}
+
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
 @media screen and (max-width: 1024px) {
     .container {
