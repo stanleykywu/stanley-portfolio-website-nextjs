@@ -60,7 +60,7 @@ const Research = () => {
                   </strong>John Abascal, <b>Stanley Wu</b>, Alina Oprea, Jonathan Ullman<br/>
                   <em>Privacy Enhancing Technologies Symposium (PETS)</em><br/>
                   <div style={{display: "flex", flexDirection: "row", alignItems: "center"}}>
-                    <Button variant='contained' disableElevation href='https://arxiv.org/abs/2306.01181' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: 'gray', marginTop: '10px', marginRight:"10px", padding: '0px 5px', minWidth: 0, textTransform: 'none'}} className='slight__pdfhover'>
+                    <Button variant='contained' disableElevation href='https://petsymposium.org/popets/2024/popets-2024-0075.pdf' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: 'gray', marginTop: '10px', marginRight:"10px", padding: '0px 5px', minWidth: 0, textTransform: 'none'}} className='slight__pdfhover'>
                       pdf
                     </Button>
                     <Button variant='contained' disableElevation href='https://github.com/johnmath/tmi-pets24' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: '#F4cBB2', color: '#000', marginTop: '10px', marginRight:"10px", padding: '0px 5px', minWidth: 0, textTransform: 'none'}} className='slight__githubhover'>
