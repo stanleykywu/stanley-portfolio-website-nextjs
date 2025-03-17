@@ -79,6 +79,7 @@ body {
     transition: transform 0.1s ease;
     z-index: 1000;
 }
+
 #contact-button:hover {
     background-color: #adc3ef;
 }
@@ -101,7 +102,7 @@ body {
         width: 90%;
     }
 
-    section > h2{
+    section>h2 {
         margin-bottom: 2rem;
     }
 }
