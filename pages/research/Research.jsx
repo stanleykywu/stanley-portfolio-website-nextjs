@@ -24,11 +24,13 @@ const Research = () => {
               </Grid>
               <Grid item xs={10} md={11} style={{ marginBottom: "20px" }}>
                 <div>
-                  <strong>On the Feasibility of Poisoning Text-to-Image AI Models via Adversarial Mislabeling<br />
-                  </strong><b>Stanley Wu</b>, Ronik Bhaskar, Anna Yoo Jeong Ha, Shawn Shan, Haitao Zheng, Ben Y. Zhao<br />
+                  <a href="https://arxiv.org/abs/2506.21874" target="_blank" rel="noopener noreferrer" className="link-no-underline">
+                    <strong style={{ color: "#005587", fontWeight: 700 }}>On the Feasibility of Poisoning Text-to-Image AI Models via Adversarial Mislabeling<br /></strong>
+                  </a>
+                  <b>Stanley Wu</b>, Ronik Bhaskar, Anna Yoo Jeong Ha, Shawn Shan, Haitao Zheng, Ben Y. Zhao<br />
                   <em>ACM Conference on Computer and Communications Security (CCS)</em><br />
                   <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
-                    <Button variant='contained' disableElevation href='https://arxiv.org/abs/2506.21874' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: 'gray', marginTop: '10px', marginRight: "10px", padding: '0px 5px', minWidth: 0, textTransform: 'none' }} className='slight__pdfhover'>
+                    <Button variant='contained' disableElevation href='https://arxiv.org/pdf/2506.21874' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: 'gray', marginTop: '10px', marginRight: "10px", padding: '0px 5px', minWidth: 0, textTransform: 'none' }} className='slight__pdfhover'>
                       pdf
                     </Button>
                   </div>
@@ -41,11 +43,13 @@ const Research = () => {
               </Grid>
               <Grid item xs={10} md={11} style={{ marginBottom: "20px" }}>
                 <div>
-                  <strong>Disrupting Style Mimicry Attacks on Video Imagery<br />
-                  </strong>Josephine Passananti<sup>*</sup>, <b>Stanley Wu<sup>*</sup></b>, Shawn Shan, Haitao Zheng, Ben Y. Zhao<br />
+                  <a href="https://arxiv.org/abs/2405.06865" target="_blank" rel="noopener noreferrer" className="link-no-underline">
+                    <strong style={{ color: "#005587", fontWeight: 700 }}>Disrupting Style Mimicry Attacks on Video Imagery<br /></strong>
+                  </a>
+                  Josephine Passananti<sup>*</sup>, <b>Stanley Wu<sup>*</sup></b>, Shawn Shan, Haitao Zheng, Ben Y. Zhao<br />
                   <em>preprint</em><br />
                   <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
-                    <Button variant='contained' disableElevation href='https://arxiv.org/abs/2405.06865' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: 'gray', marginTop: '10px', marginRight: "10px", padding: '0px 5px', minWidth: 0, textTransform: 'none' }} className='slight__pdfhover'>
+                    <Button variant='contained' disableElevation href='https://arxiv.org/pdf/2405.06865' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: 'gray', marginTop: '10px', marginRight: "10px", padding: '0px 5px', minWidth: 0, textTransform: 'none' }} className='slight__pdfhover'>
                       pdf
                     </Button>
                   </div>
@@ -54,11 +58,14 @@ const Research = () => {
               <Grid item xs={2} md={1} justifyContent="left" />
               <Grid item xs={10} md={11} style={{ marginBottom: "20px" }}>
                 <div>
-                  <strong>Nightshade: Prompt-Specific Poisoning Attacks on Text-to-Image Generative Models<br />
-                  </strong>Shawn Shan, Wenxin Ding, Josephine Passananti, <b>Stanley Wu</b>, Haitao Zheng, Ben Y. Zhao<br />
+                  <a href="https://arxiv.org/abs/2310.13828" target="_blank" rel="noopener noreferrer" className="link-no-underline">
+                    <strong style={{ color: "#005587", fontWeight: 700 }}>Nightshade: Prompt-Specific Poisoning Attacks on Text-to-Image Generative Models<br />
+                    </strong>
+                  </a>
+                  Shawn Shan, Wenxin Ding, Josephine Passananti, <b>Stanley Wu</b>, Haitao Zheng, Ben Y. Zhao<br />
                   <em>IEEE Symposium on Security and Privacy (Oakland)</em><br />
                   <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
-                    <Button variant='contained' disableElevation href='https://arxiv.org/abs/2310.13828' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: 'gray', marginTop: '10px', marginRight: "10px", padding: '0px 5px', minWidth: 0, textTransform: 'none' }} className='slight__pdfhover'>
+                    <Button variant='contained' disableElevation href='https://arxiv.org/pdf/2310.13828' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: 'gray', marginTop: '10px', marginRight: "10px", padding: '0px 5px', minWidth: 0, textTransform: 'none' }} className='slight__pdfhover'>
                       pdf
                     </Button>
                     <Button variant='contained' disableElevation href='https://github.com/Shawn-Shan/nightshade-release' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: '#F4cBB2', color: '#000', marginTop: '10px', marginRight: "10px", padding: '0px 5px', minWidth: 0, textTransform: 'none' }} className='slight__githubhover'>
@@ -73,8 +80,10 @@ const Research = () => {
               <Grid item xs={2} md={1} justifyContent="left" />
               <Grid item xs={10} md={11} style={{ marginBottom: "20px" }}>
                 <div>
-                  <strong>TMI! Finetuned Models Leak Private Information from their Pretraining Data<br />
-                  </strong>John Abascal, <b>Stanley Wu</b>, Alina Oprea, Jonathan Ullman<br />
+                  <a href="https://arxiv.org/abs/2306.01181" target="_blank" rel="noopener noreferrer" className="link-no-underline">
+                    <strong style={{ color: "#005587", fontWeight: 700 }}>TMI! Finetuned Models Leak Private Information from their Pretraining Data<br /></strong>
+                  </a>
+                  John Abascal, <b>Stanley Wu</b>, Alina Oprea, Jonathan Ullman<br />
                   <em>Privacy Enhancing Technologies Symposium (PETS)</em><br />
                   <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
                     <Button variant='contained' disableElevation href='https://petsymposium.org/popets/2024/popets-2024-0075.pdf' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: 'gray', marginTop: '10px', marginRight: "10px", padding: '0px 5px', minWidth: 0, textTransform: 'none' }} className='slight__pdfhover'>
@@ -93,8 +102,10 @@ const Research = () => {
               </Grid>
               <Grid item xs={10} md={11}>
                 <div>
-                  <strong>How to Combine Membership-Inference Attacks on Multiple Updated Models<br />
-                  </strong>Matthew Jagielski<sup>*</sup>, <b>Stanley Wu<sup>*</sup></b>, Alina Oprea, Jonathan Ullman, Roxana Geambasu<br />
+                  <a href="https://arxiv.org/abs/2205.06369" target="_blank" rel="noopener noreferrer" className="link-no-underline">
+                    <strong style={{ color: "#005587", fontWeight: 700 }}>How to Combine Membership-Inference Attacks on Multiple Updated Models<br /></strong>
+                  </a>
+                  Matthew Jagielski<sup>*</sup>, <b>Stanley Wu<sup>*</sup></b>, Alina Oprea, Jonathan Ullman, Roxana Geambasu<br />
                   <em>Privacy Enhancing Technologies Symposium (PETS)</em><br />
                   <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
                     <Button variant='contained' disableElevation href='https://petsymposium.org/popets/2023/popets-2023-0078.pdf' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: 'gray', marginTop: '10px', marginRight: "10px", padding: '0px 5px', minWidth: 0, textTransform: 'none' }} className='slight__pdfhover'>

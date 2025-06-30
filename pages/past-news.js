@@ -140,7 +140,7 @@ export default function About() {
                                 <Grid item xs={10} md={11}>
                                     <div>
                                         <strong>March<br />
-                                        </strong>Our <a href='https://petsymposium.org/popets/2023/popets-2023-0078.pdf' target="_blank" rel="noreferrer" style={{ textDecoration: 'underline', color: 'black' }}>paper</a> on Membership Inference and Model Updates was accepted to the <i>Privacy Enhancing Technologies Symposium '24</i><br />
+                                        </strong>Our <a href='https://arxiv.org/abs/2205.06369' target="_blank" rel="noreferrer" style={{ textDecoration: 'underline', color: 'black' }}>paper</a> on Membership Inference and Model Updates was accepted to the <i>Privacy Enhancing Technologies Symposium '24</i><br />
                                         <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
                                         </div>
                                     </div>

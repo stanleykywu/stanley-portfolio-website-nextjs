@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from './header/Header'
 import Head from 'next/head';
 import Research from './research/Research'
@@ -17,10 +16,10 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: 'Poppins',
-    fontWeightLight: 200,
-    fontWeightRegular: 300,
-    fontWeightMedium: 400,
-    fontWeightBold: 500,
+    fontWeightLight: 300,
+    fontWeightRegular: 400,
+    fontWeightMedium: 500,
+    fontWeightBold: 600,
   },
 });
 

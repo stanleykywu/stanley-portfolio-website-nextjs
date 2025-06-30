@@ -70,7 +70,7 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #adc3ef;
+    background-color: #DAEBFE;
     color: black;
     padding: 10px 20px;
     border: none;
@@ -81,7 +81,17 @@ body {
 }
 
 #contact-button:hover {
-    background-color: #adc3ef;
+    background-color: #DAEBFE;
+}
+
+.link-no-underline {
+    text-decoration: none;
+    color: #005587;
+    font-weight: 700;
+}
+
+.link-no-underline:hover {
+    text-decoration: underline;
 }
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */

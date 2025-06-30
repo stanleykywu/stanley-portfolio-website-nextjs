@@ -27,14 +27,14 @@ const Header = () => {
               <List sx={{ paddingLeft: "0px", marginLeft: "0px" }}>
                 <ListItem>
                   <i aria-hidden="true" style={{ marginRight: "5px" }}>
-                    <FontAwesomeIcon icon={faLocationDot} style={{ color: "#adc3ef" }}></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faLocationDot} style={{ color: "#005587" }}></FontAwesomeIcon>
                   </i>
                   Chicago, IL
                 </ListItem>
                 <ListItem>
                   <a href='mailto: stanleywu+w@cs.uchicago.edu' target="_blank" rel="noreferrer" style={{ textDecoration: 'underline', color: 'black' }}>
                     <i style={{ marginRight: "5px" }}>
-                      <FontAwesomeIcon icon={faEnvelope} style={{ color: "#adc3ef" }}></FontAwesomeIcon>
+                      <FontAwesomeIcon icon={faEnvelope} style={{ color: "#005587" }}></FontAwesomeIcon>
                     </i>
                     Email
                   </a>
@@ -42,7 +42,7 @@ const Header = () => {
                 <ListItem>
                   <a href="/static/cv.pdf" locale={false} target="_blank" rel="noreferrer" style={{ textDecoration: 'underline', color: 'black' }}>
                     <i style={{ marginRight: "5px" }}>
-                      <FontAwesomeIcon icon={faFilePdf} style={{ color: "#adc3ef" }}></FontAwesomeIcon>
+                      <FontAwesomeIcon icon={faFilePdf} style={{ color: "#005587" }}></FontAwesomeIcon>
                     </i>
                     CV
                   </a>
@@ -50,7 +50,7 @@ const Header = () => {
                 <ListItem>
                   <a href='https://scholar.google.com/citations?user=wkis3pgAAAAJ&hl=en' target="_blank" rel="noreferrer" style={{ textDecoration: 'underline', color: 'black' }}>
                     <i style={{ marginRight: "5px" }}>
-                      <FontAwesomeIcon icon={faGraduationCap} style={{ color: "#adc3ef" }}></FontAwesomeIcon>
+                      <FontAwesomeIcon icon={faGraduationCap} style={{ color: "#005587" }}></FontAwesomeIcon>
                     </i>
                     Google Scholar
                   </a>
