@@ -26,7 +26,7 @@ const Research = () => {
                 <div>
                   <strong>On the Feasibility of Poisoning Text-to-Image AI Models via Adversarial Mislabeling<br />
                   </strong><b>Stanley Wu</b>, Ronik Bhaskar, Anna Yoo Jeong Ha, Shawn Shan, Haitao Zheng, Ben Y. Zhao<br />
-                  <em>preprint</em><br />
+                  <em>ACM Conference on Computer and Communications Security (CCS)</em><br />
                   <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
                     <Button variant='contained' disableElevation href='https://arxiv.org/abs/2506.21874' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: 'gray', marginTop: '10px', marginRight: "10px", padding: '0px 5px', minWidth: 0, textTransform: 'none' }} className='slight__pdfhover'>
                       pdf
