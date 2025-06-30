@@ -1,4 +1,4 @@
-import './/index.css'
+import './index.css'
 import Layout from './components/layout.jsx'
 import App from 'next/app';
 
