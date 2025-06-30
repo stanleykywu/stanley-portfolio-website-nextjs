@@ -20,6 +20,23 @@ const Research = () => {
           <Container align="left" style={{ padding: 0, marginBottom: 50 }}>
             <Grid container display={(isMobile) ? 'block' : 'flex'} direction={(isMobile) ? 'column' : "row"} justifyContent="center">
               <Grid item xs={2} md={1} justifyContent="left">
+                <strong>2025</strong>
+              </Grid>
+              <Grid item xs={10} md={11} style={{ marginBottom: "20px" }}>
+                <div>
+                  <strong>On the Feasibility of Poisoning Text-to-Image AI Models via Adversarial Mislabeling<br />
+                  </strong><b>Stanley Wu</b>, Ronik Bhaskar, Anna Yoo Jeong Ha, Shawn Shan, Haitao Zheng, Ben Y. Zhao<br />
+                  <em>preprint</em><br />
+                  <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
+                    <Button variant='contained' disableElevation href='https://arxiv.org/abs/2506.21874' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: 'gray', marginTop: '10px', marginRight: "10px", padding: '0px 5px', minWidth: 0, textTransform: 'none' }} className='slight__pdfhover'>
+                      pdf
+                    </Button>
+                  </div>
+                </div>
+              </Grid>
+            </Grid>
+            <Grid container display={(isMobile) ? 'block' : 'flex'} direction={(isMobile) ? 'column' : "row"} justifyContent="center">
+              <Grid item xs={2} md={1} justifyContent="left">
                 <strong>2024</strong>
               </Grid>
               <Grid item xs={10} md={11} style={{ marginBottom: "20px" }}>
@@ -95,9 +112,6 @@ const Research = () => {
             </Grid>
           </Container>
         </Grid>
-        {/* <Grid md={3}>
-          <Contact/>
-        </Grid> */}
       </Grid>
     </Container>
   )
