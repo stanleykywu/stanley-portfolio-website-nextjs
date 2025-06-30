@@ -15,7 +15,7 @@ const Header = () => {
     <Container id='home' align='center'>
       <Grid container display={(isMobile) ? 'block' : 'flex'} direction={(isMobile) ? 'column' : "row"} justifyContent="center" paddingTop={12}>
         <Grid item md={4} paddingTop={2}>
-          <Avatar alt='Stanley Wu' src="/static/headshot-2023.webp" variant='circular' sx={{ width: '300px', height: '300px' }} />
+          <Avatar alt='Stanley Wu' src="/static/headshot-2025.webp" variant='circular' sx={{ width: '300px', height: '300px' }} />
           <CTA />
         </Grid>
         <Grid md={1} />
