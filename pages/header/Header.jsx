@@ -95,7 +95,7 @@ const Header = () => {
             </Grid>
           </Grid>
           <p align="left" style={{}}>
-            I am a 2nd year Ph.D. student at the University of Chicago <a href='https://sandlab.cs.uchicago.edu/' target="_blank" rel="noreferrer" style={{ textDecoration: 'underline', color: 'black' }}>SAND Lab</a>, co-advised by <a href='https://people.cs.uchicago.edu/~ravenben/' target="_blank" rel="noreferrer" style={{ textDecoration: 'underline', color: 'black' }}>Ben Zhao</a> and <a href='https://people.cs.uchicago.edu/~htzheng/' target="_blank" rel="noreferrer" style={{ textDecoration: 'underline', color: 'black' }}>Heather Zheng</a>. My work is supported by the National Science Foundation's Graduate Research Fellowship (GRFP), which I received in 2024.
+            I am a 3rd year Ph.D. student at the University of Chicago <a href='https://sandlab.cs.uchicago.edu/' target="_blank" rel="noreferrer" style={{ textDecoration: 'underline', color: 'black' }}>SAND Lab</a>, co-advised by <a href='https://people.cs.uchicago.edu/~ravenben/' target="_blank" rel="noreferrer" style={{ textDecoration: 'underline', color: 'black' }}>Ben Zhao</a> and <a href='https://people.cs.uchicago.edu/~htzheng/' target="_blank" rel="noreferrer" style={{ textDecoration: 'underline', color: 'black' }}>Heather Zheng</a>. My work is supported by the National Science Foundation's Graduate Research Fellowship (GRFP), which I received in 2024.
           </p>
           <p align="left">
             My primary academic interest lie in adversarial machine learning, with a particular focus on security issues with generative AI. Recently, I have been studying the safety limitations of generative models, and developing methods to protect human creatives against intrusive training.
