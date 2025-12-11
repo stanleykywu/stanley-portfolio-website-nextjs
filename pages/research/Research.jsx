@@ -33,6 +33,9 @@ const Research = () => {
                     <Button variant='contained' disableElevation href='https://arxiv.org/pdf/2506.21874' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: 'gray', marginTop: '10px', marginRight: "10px", padding: '0px 5px', minWidth: 0, textTransform: 'none' }} className='slight__pdfhover'>
                       pdf
                     </Button>
+                    <Button variant='contained' disableElevation href='https://github.com/stanleykywu/amp' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: '#F4cBB2', color: '#000', marginTop: '10px', marginRight: "10px", padding: '0px 5px', minWidth: 0, textTransform: 'none' }} className='slight__githubhover'>
+                      code
+                    </Button>
                   </div>
                 </div>
               </Grid>
