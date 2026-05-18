@@ -20,6 +20,20 @@ const Research = () => {
           <Container align="left" style={{ padding: 0, marginBottom: 50 }}>
             <Grid container display={(isMobile) ? 'block' : 'flex'} direction={(isMobile) ? 'column' : "row"} justifyContent="center">
               <Grid item xs={2} md={1} justifyContent="left">
+                <strong>2026</strong>
+              </Grid>
+              <Grid item xs={10} md={11} style={{ marginBottom: "20px" }}>
+                <div>
+                  <a href="..." target="_blank" rel="noopener noreferrer" className="link-no-underline">
+                    <strong style={{ color: "#005587", fontWeight: 700 }}>Identifying Provenance of Generative Text-to-Image Models<br /></strong>
+                  </a>
+                  Anna Yoo Jeong Ha, Wenxin Ding, <b>Stanley Wu</b>, Shawn Shan, Haitao Zheng, Ben Y. Zhao<br />
+                  <em>Proceedings of USENIX Security Symposium</em><br />
+                </div>
+              </Grid>
+            </Grid>
+            <Grid container display={(isMobile) ? 'block' : 'flex'} direction={(isMobile) ? 'column' : "row"} justifyContent="center">
+              <Grid item xs={2} md={1} justifyContent="left">
                 <strong>2025</strong>
               </Grid>
               <Grid item xs={10} md={11} style={{ marginBottom: "20px" }}>
@@ -28,7 +42,7 @@ const Research = () => {
                     <strong style={{ color: "#005587", fontWeight: 700 }}>On the Feasibility of Poisoning Text-to-Image AI Models via Adversarial Mislabeling<br /></strong>
                   </a>
                   <b>Stanley Wu</b>, Ronik Bhaskar, Anna Yoo Jeong Ha, Shawn Shan, Haitao Zheng, Ben Y. Zhao<br />
-                  <em>ACM Conference on Computer and Communications Security (CCS)</em><br />
+                  <em>Proceedings of ACM Conference on Computer and Communications Security (CCS)</em><br />
                   <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
                     <Button variant='contained' disableElevation href='https://arxiv.org/pdf/2506.21874' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: 'gray', marginTop: '10px', marginRight: "10px", padding: '0px 5px', minWidth: 0, textTransform: 'none' }} className='slight__pdfhover'>
                       pdf
@@ -66,7 +80,7 @@ const Research = () => {
                     </strong>
                   </a>
                   Shawn Shan, Wenxin Ding, Josephine Passananti, <b>Stanley Wu</b>, Haitao Zheng, Ben Y. Zhao<br />
-                  <em>IEEE Symposium on Security and Privacy (Oakland)</em><br />
+                  <em>Proceedings of 45th IEEE Symposium on Security and Privacy</em><br />
                   <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
                     <Button variant='contained' disableElevation href='https://arxiv.org/pdf/2310.13828' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: 'gray', marginTop: '10px', marginRight: "10px", padding: '0px 5px', minWidth: 0, textTransform: 'none' }} className='slight__pdfhover'>
                       pdf
@@ -87,7 +101,7 @@ const Research = () => {
                     <strong style={{ color: "#005587", fontWeight: 700 }}>TMI! Finetuned Models Leak Private Information from their Pretraining Data<br /></strong>
                   </a>
                   John Abascal, <b>Stanley Wu</b>, Alina Oprea, Jonathan Ullman<br />
-                  <em>Privacy Enhancing Technologies Symposium (PETS)</em><br />
+                  <em>Proceedings of Privacy Enhancing Technologies Symposium (PETS)</em><br />
                   <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
                     <Button variant='contained' disableElevation href='https://petsymposium.org/popets/2024/popets-2024-0075.pdf' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: 'gray', marginTop: '10px', marginRight: "10px", padding: '0px 5px', minWidth: 0, textTransform: 'none' }} className='slight__pdfhover'>
                       pdf
@@ -109,7 +123,7 @@ const Research = () => {
                     <strong style={{ color: "#005587", fontWeight: 700 }}>How to Combine Membership-Inference Attacks on Multiple Updated Models<br /></strong>
                   </a>
                   Matthew Jagielski<sup>*</sup>, <b>Stanley Wu<sup>*</sup></b>, Alina Oprea, Jonathan Ullman, Roxana Geambasu<br />
-                  <em>Privacy Enhancing Technologies Symposium (PETS)</em><br />
+                  <em>Proceedings of Privacy Enhancing Technologies Symposium (PETS)</em><br />
                   <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
                     <Button variant='contained' disableElevation href='https://petsymposium.org/popets/2023/popets-2023-0078.pdf' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: 'gray', marginTop: '10px', marginRight: "10px", padding: '0px 5px', minWidth: 0, textTransform: 'none' }} className='slight__pdfhover'>
                       pdf

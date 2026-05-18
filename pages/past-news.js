@@ -42,6 +42,21 @@ export default function About() {
                         <Container align="left" style={{ padding: 0 }}>
                             <Grid container display={(isMobile) ? 'block' : 'flex'} direction={(isMobile) ? 'column' : "row"} justifyContent="center">
                                 <Grid item xs={2} md={1} justifyContent="left">
+                                    <strong>2026</strong>
+                                </Grid>
+                                <Grid item xs={10} md={11} style={{ marginBottom: "20px" }}>
+                                    <div>
+                                        <strong>January</strong>
+                                        <br />
+                                        T2I model provenance paper was accepted to <i>USENIX Security '26</i>
+                                        <br />
+                                        <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
+                                        </div>
+                                    </div>
+                                </Grid>
+                            </Grid>
+                            <Grid container display={(isMobile) ? 'block' : 'flex'} direction={(isMobile) ? 'column' : "row"} justifyContent="center">
+                                <Grid item xs={2} md={1} justifyContent="left">
                                     <strong>2025</strong>
                                 </Grid>
                                 <Grid item xs={10} md={11} style={{ marginBottom: "20px" }}>
