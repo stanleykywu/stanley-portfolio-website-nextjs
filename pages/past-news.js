@@ -46,6 +46,16 @@ export default function About() {
                                 </Grid>
                                 <Grid item xs={10} md={11} style={{ marginBottom: "20px" }}>
                                     <div>
+                                        <strong>June</strong>
+                                        <br />
+                                        Released <a href='https://arxiv.org/abs/2606.18052' target="_blank" rel="noreferrer" style={{ textDecoration: 'underline', color: 'black' }}>new preprint</a> presenting our large-scale measurement study of AI-generated music in music streaming.
+                                        <br />
+                                        <br />
+                                        <strong>May</strong>
+                                        <br />
+                                        We released <a href='https://www.etch-humanity.org/etch-lab/quicksilver-plugin' target="_blank" rel="noreferrer" style={{ textDecoration: 'underline', color: 'black' }}>Quicksilver</a> as a tool for identifying AI-generated music in real-time.
+                                        <br />
+                                        <br />
                                         <strong>January</strong>
                                         <br />
                                         T2I model provenance paper was accepted to <i>USENIX Security '26</i>

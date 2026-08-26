@@ -24,6 +24,23 @@ const Research = () => {
               </Grid>
               <Grid item xs={10} md={11} style={{ marginBottom: "20px" }}>
                 <div>
+                  <a href="https://arxiv.org/abs/2606.18052" target="_blank" rel="noopener noreferrer" className="link-no-underline">
+                    <strong style={{ color: "#005587", fontWeight: 700 }}>An Empirical Analysis of AI Slop in Music Streaming<br /></strong>
+                  </a>
+                  <b>Stanley Wu</b>, Josephine Passananti, Viresh Mittal, Wenxin Ding, Haitao Zheng, Ben Y. Zhao<br />
+                  <em>preprint</em><br />
+                  <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
+                    <Button variant='contained' disableElevation href='https://arxiv.org/pdf/2606.18052' target='_blank' rel="noopener noreferrer" sx={{ display: 'flex', flexDirection: 'column', backgroundColor: 'gray', marginTop: '10px', marginRight: "10px", padding: '0px 5px', minWidth: 0, textTransform: 'none' }} className='slight__pdfhover'>
+                      pdf
+                    </Button>
+                  </div>
+                </div>
+              </Grid>
+            </Grid>
+            <Grid container display={(isMobile) ? 'block' : 'flex'} direction={(isMobile) ? 'column' : "row"} justifyContent="center">
+              <Grid item xs={2} md={1} justifyContent="left" />
+              <Grid item xs={10} md={11} style={{ marginBottom: "20px" }}>
+                <div>
                   <a href="..." target="_blank" rel="noopener noreferrer" className="link-no-underline">
                     <strong style={{ color: "#005587", fontWeight: 700 }}>Identifying Provenance of Generative Text-to-Image Models<br /></strong>
                   </a>
